@@ -24,6 +24,8 @@ So just download Icy for [Eclipse](http://icy.bioimageanalysis.org/index.php?dis
 Then create a new *Icy project* and include all the source code. 
 Don't forget to add [Commons math](http://commons.apache.org/proper/commons-math/) and [Jama](http://math.nist.gov/javanumerics/jama/) *.jar* and **EzPlug** (The **EzPlug** jar should be in the **plugings/adufour** folder) to the project.
 
+**You will have to rename the packages to your developer name located on "Window->Preferences->Icy. Rename then algorithms.yourName.normalization and plugins.yourName.normalization**
+
 Then either run Icy from Eclipse and you'll find the plugin in the plugin list, or create a new *.jar* and add it yourself to the */plugings* folder.
 
 The plugin should appear on the **Other Plugings** tab
